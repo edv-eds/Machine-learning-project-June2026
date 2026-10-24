@@ -6,7 +6,7 @@ Project in Machine Learning. Supervised learning using numerical and labeled dat
 ## Questions
 
 
-### 1(a)
+### 1 - Construct a ML pipeline
 Construct a ML pipeline to analyze the ``X_TR``, ``y_TR`` data set. Make sure to motivate choices made in for the pipeline. Investigate the effect of sample size on performance.
 
 **Discuss:**
@@ -15,7 +15,7 @@ Construct a ML pipeline to analyze the ``X_TR``, ``y_TR`` data set. Make sure to
 - Particular challenges in this data set that your analysis identified and how you addressed them
 - How many features were informative and if this dependend on the method and how you assessed this
 
-### 1(b)
+### 2 - Disruption of the given data
 What's a minimum disruption to the given data set that will make some methods perform worse? This should not be just adding noise to the data because that would be the same for all data sets - what is special about the data given to you? Be precise in how you target your data and target your chosen methods.
 
 Implement a disruption technique and illustrate how some methods fail and others are more resilient. Motivate why you chose this specific disruption for you data.
@@ -26,7 +26,7 @@ Implement a disruption technique and illustrate how some methods fail and others
 - Stability of assessment
 
 
-### 1(c)
+### 3 - Mislabeled data
 Is there any evidence of mislabeling in your data set?
 
 **Discuss:**
@@ -35,7 +35,7 @@ Is there any evidence of mislabeling in your data set?
 
 
 
-### 2(a)
+### 4 - ML pipeline for a super-majority class
 Use your data and create a much more challenging problem where you have one super-majority class and the rest are tiny minority classes (you choose - but push the limit so this truly is extreme). How does your pipeline perform on this altered data set? Can you alleviate the problem by weighting or oversampling?
 
 **Discuss:**
@@ -44,7 +44,7 @@ Use your data and create a much more challenging problem where you have one supe
 
 
 
-### 2(b)
+### 5 - Tackle class imbalance using hierarchical classification
 One way to approach this kind of problem is to first run majority-vs-rest and then a multiclass problem for the minority classes. Implement this and investigate if that works for your data set.
 
 **Discuss:**
